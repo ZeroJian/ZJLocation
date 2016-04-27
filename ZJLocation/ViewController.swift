@@ -19,9 +19,11 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     ZJLocationService.startLocation()
+    
     ZJLocationService.sharedManager.didUpdateLocation = { [weak self] location in
       self?.label.text = "Location: \(location.coordinate.latitude)  \(location.coordinate.longitude)"
     }
+    
     ZJLocationService.time = 120
   }
   
