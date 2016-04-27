@@ -24,7 +24,7 @@ stopUpdating location:
 	
 	ZJLocationService.stopLocation()
 	
-default and most timeInterval is 179 seconds, if you custom timeInterval:
+default and maximal timeInterval is 179 seconds, if you custom timeInterval:
 
 	ZJLocationService.time = 120
 	
