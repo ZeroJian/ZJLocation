@@ -39,5 +39,7 @@ If you need the last location before each stopLocation:
 	}
 
 
+### License
 
+ZJLocation is released under the MIT license. See LICENSE for details.
  
