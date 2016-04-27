@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A330861CC7079700D9767A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A330851CC7079700D9767A /* AppDelegate.swift */; };
+		32A330881CC7079700D9767A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A330871CC7079700D9767A /* ViewController.swift */; };
+		32A3308B1CC7079700D9767A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A330891CC7079700D9767A /* Main.storyboard */; };
+		32A3308D1CC7079700D9767A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A3308C1CC7079700D9767A /* Assets.xcassets */; };
+		32A330901CC7079700D9767A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A3308E1CC7079700D9767A /* LaunchScreen.storyboard */; };
+		32A3309B1CC7079700D9767A /* ZJLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A3309A1CC7079700D9767A /* ZJLocationTests.swift */; };
+		32A330A71CC707CD00D9767A /* ZJLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A330A51CC707CD00D9767A /* ZJLocationService.swift */; };
+		32A330A81CC707CD00D9767A /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A330A61CC707CD00D9767A /* BackgroundTask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A330971CC7079700D9767A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A3307A1CC7079700D9767A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A330811CC7079700D9767A;
+			remoteInfo = ZJLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A330821CC7079700D9767A /* ZJLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A330851CC7079700D9767A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32A330871CC7079700D9767A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32A3308A1CC7079700D9767A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32A3308C1CC7079700D9767A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A3308F1CC7079700D9767A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A330911CC7079700D9767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A330961CC7079700D9767A /* ZJLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A3309A1CC7079700D9767A /* ZJLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLocationTests.swift; sourceTree = "<group>"; };
+		32A3309C1CC7079700D9767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A330A51CC707CD00D9767A /* ZJLocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJLocationService.swift; sourceTree = "<group>"; };
+		32A330A61CC707CD00D9767A /* BackgroundTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A3307F1CC7079700D9767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A330931CC7079700D9767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A330791CC7079700D9767A = {
+			isa = PBXGroup;
+			children = (
+				32A330841CC7079700D9767A /* ZJLocation */,
+				32A330991CC7079700D9767A /* ZJLocationTests */,
+				32A330831CC7079700D9767A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A330831CC7079700D9767A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A330821CC7079700D9767A /* ZJLocation.app */,
+				32A330961CC7079700D9767A /* ZJLocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A330841CC7079700D9767A /* ZJLocation */ = {
+			isa = PBXGroup;
+			children = (
+				32A330851CC7079700D9767A /* AppDelegate.swift */,
+				32A330871CC7079700D9767A /* ViewController.swift */,
+				32A330891CC7079700D9767A /* Main.storyboard */,
+				32A330A51CC707CD00D9767A /* ZJLocationService.swift */,
+				32A330A61CC707CD00D9767A /* BackgroundTask.swift */,
+				32A3308C1CC7079700D9767A /* Assets.xcassets */,
+				32A3308E1CC7079700D9767A /* LaunchScreen.storyboard */,
+				32A330911CC7079700D9767A /* Info.plist */,
+			);
+			path = ZJLocation;
+			sourceTree = "<group>";
+		};
+		32A330991CC7079700D9767A /* ZJLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A3309A1CC7079700D9767A /* ZJLocationTests.swift */,
+				32A3309C1CC7079700D9767A /* Info.plist */,
+			);
+			path = ZJLocationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A330811CC7079700D9767A /* ZJLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A3309F1CC7079700D9767A /* Build configuration list for PBXNativeTarget "ZJLocation" */;
+			buildPhases = (
+				32A3307E1CC7079700D9767A /* Sources */,
+				32A3307F1CC7079700D9767A /* Frameworks */,
+				32A330801CC7079700D9767A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLocation;
+			productName = ZJLocation;
+			productReference = 32A330821CC7079700D9767A /* ZJLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A330951CC7079700D9767A /* ZJLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A330A21CC7079700D9767A /* Build configuration list for PBXNativeTarget "ZJLocationTests" */;
+			buildPhases = (
+				32A330921CC7079700D9767A /* Sources */,
+				32A330931CC7079700D9767A /* Frameworks */,
+				32A330941CC7079700D9767A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A330981CC7079700D9767A /* PBXTargetDependency */,
+			);
+			name = ZJLocationTests;
+			productName = ZJLocationTests;
+			productReference = 32A330961CC7079700D9767A /* ZJLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A3307A1CC7079700D9767A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZeroJian;
+				TargetAttributes = {
+					32A330811CC7079700D9767A = {
+						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					32A330951CC7079700D9767A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32A330811CC7079700D9767A;
+					};
+				};
+			};
+			buildConfigurationList = 32A3307D1CC7079700D9767A /* Build configuration list for PBXProject "ZJLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A330791CC7079700D9767A;
+			productRefGroup = 32A330831CC7079700D9767A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A330811CC7079700D9767A /* ZJLocation */,
+				32A330951CC7079700D9767A /* ZJLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A330801CC7079700D9767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A330901CC7079700D9767A /* LaunchScreen.storyboard in Resources */,
+				32A3308D1CC7079700D9767A /* Assets.xcassets in Resources */,
+				32A3308B1CC7079700D9767A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A330941CC7079700D9767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A3307E1CC7079700D9767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A330881CC7079700D9767A /* ViewController.swift in Sources */,
+				32A330A71CC707CD00D9767A /* ZJLocationService.swift in Sources */,
+				32A330A81CC707CD00D9767A /* BackgroundTask.swift in Sources */,
+				32A330861CC7079700D9767A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A330921CC7079700D9767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A3309B1CC7079700D9767A /* ZJLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A330981CC7079700D9767A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A330811CC7079700D9767A /* ZJLocation */;
+			targetProxy = 32A330971CC7079700D9767A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A330891CC7079700D9767A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A3308A1CC7079700D9767A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32A3308E1CC7079700D9767A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A3308F1CC7079700D9767A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A3309D1CC7079700D9767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32A3309E1CC7079700D9767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A330A01CC7079700D9767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerojian.ZJLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32A330A11CC7079700D9767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerojian.ZJLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32A330A31CC7079700D9767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerojian.ZJLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLocation.app/ZJLocation";
+			};
+			name = Debug;
+		};
+		32A330A41CC7079700D9767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerojian.ZJLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLocation.app/ZJLocation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A3307D1CC7079700D9767A /* Build configuration list for PBXProject "ZJLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A3309D1CC7079700D9767A /* Debug */,
+				32A3309E1CC7079700D9767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A3309F1CC7079700D9767A /* Build configuration list for PBXNativeTarget "ZJLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A330A01CC7079700D9767A /* Debug */,
+				32A330A11CC7079700D9767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A330A21CC7079700D9767A /* Build configuration list for PBXNativeTarget "ZJLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A330A31CC7079700D9767A /* Debug */,
+				32A330A41CC7079700D9767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A3307A1CC7079700D9767A /* Project object */;
+}
